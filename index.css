@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  padding-top: 0;
+  width: 100%;
+}
